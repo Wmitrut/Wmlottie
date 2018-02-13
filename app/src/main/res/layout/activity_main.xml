@@ -18,7 +18,8 @@
         app:lottie_autoPlay="true"
         app:lottie_fileName="rey.json"
         app:lottie_loop="true"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
 
     <android.support.design.widget.FloatingActionButton
@@ -33,9 +34,32 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/animation_view"
+        app:layout_constraintVertical_bias="0.502"
         app:srcCompat="@drawable/pause" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animation_view"
+        app:layout_constraintVertical_bias="0.502"
+        app:srcCompat="@drawable/stop" />
+
 
 
 </android.support.constraint.ConstraintLayout>
