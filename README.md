@@ -1,4 +1,4 @@
-# Introdução à implementaçãp do Lottie no Android com Kotlin
+# Introdução à implementação do Lottie no Android com Kotlin
 
 Este aplicativo tem como intuito servir como uma demonstração do uso da biblioteca Lottie do Airbnb em uma aplicação Android utilizando Kotlin.
 
